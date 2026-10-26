@@ -1,0 +1,396 @@
+{
+  "stats": {
+    "payments": {
+      "total": 256,
+      "accepted": 234,
+      "invalid": 6,
+      "duplicates": 16
+    },
+    "shipments": {
+      "total": 120,
+      "accepted": 107,
+      "invalid": 4,
+      "duplicates": 9
+    },
+    "complaints": {
+      "total": 54,
+      "accepted": 46,
+      "invalid": 4,
+      "duplicates": 4
+    },
+    "llm_errors": 0
+  },
+  "cases": [
+    {
+      "ticket_id": "TKT-001",
+      "order_id": "ORD-501",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0158",
+        "PAY-0159"
+      ]
+    },
+    {
+      "ticket_id": "TKT-002",
+      "order_id": "ORD-502",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-003",
+      "order_id": "ORD-503",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-004",
+      "order_id": "ORD-504",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0164",
+        "PAY-0165",
+        "PAY-0166"
+      ]
+    },
+    {
+      "ticket_id": "TKT-005",
+      "order_id": "ORD-505",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-006",
+      "order_id": "ORD-506",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0171",
+        "PAY-0173",
+        "PAY-0174"
+      ]
+    },
+    {
+      "ticket_id": "TKT-007",
+      "order_id": "ORD-507",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0065"
+      ]
+    },
+    {
+      "ticket_id": "TKT-008",
+      "order_id": "ORD-508",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-009",
+      "order_id": "ORD-509",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0067"
+      ]
+    },
+    {
+      "ticket_id": "TKT-010",
+      "order_id": "ORD-510",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0178",
+        "PAY-0179"
+      ]
+    },
+    {
+      "ticket_id": "TKT-011",
+      "order_id": "ORD-511",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0181",
+        "PAY-0182",
+        "PAY-0183"
+      ]
+    },
+    {
+      "ticket_id": "TKT-012",
+      "order_id": "ORD-512",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-013",
+      "order_id": "ORD-513",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0068"
+      ]
+    },
+    {
+      "ticket_id": "TKT-014",
+      "order_id": "ORD-514",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0187",
+        "PAY-0188"
+      ]
+    },
+    {
+      "ticket_id": "TKT-015",
+      "order_id": "ORD-515",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-016",
+      "order_id": "ORD-516",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0069"
+      ]
+    },
+    {
+      "ticket_id": "TKT-017",
+      "order_id": null,
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-018",
+      "order_id": null,
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-019",
+      "order_id": "ORD-990",
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-020",
+      "order_id": null,
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-021",
+      "order_id": "ORD-511",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0181",
+        "PAY-0182",
+        "PAY-0183"
+      ]
+    },
+    {
+      "ticket_id": "TKT-022",
+      "order_id": "ORD-504",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-023",
+      "order_id": "ORD-508",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-024",
+      "order_id": "ORD-514",
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-025",
+      "order_id": "ORD-515",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-026",
+      "order_id": "ORD-507",
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-027",
+      "order_id": "ORD-516",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0069"
+      ]
+    },
+    {
+      "ticket_id": "TKT-028",
+      "order_id": "ORD-513",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-029",
+      "order_id": "ORD-503",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-030",
+      "order_id": "ORD-510",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0178",
+        "PAY-0179"
+      ]
+    },
+    {
+      "ticket_id": "TKT-031",
+      "order_id": "ORD-780",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-032",
+      "order_id": "ORD-505",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-033",
+      "order_id": "ORD-507",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0065"
+      ]
+    },
+    {
+      "ticket_id": "TKT-034",
+      "order_id": "ORD-511",
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-035",
+      "order_id": "ORD-512",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-036",
+      "order_id": "ORD-509",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "EVT-0067"
+      ]
+    },
+    {
+      "ticket_id": "TKT-037",
+      "order_id": null,
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-038",
+      "order_id": "ORD-506",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0171",
+        "PAY-0173",
+        "PAY-0174"
+      ]
+    },
+    {
+      "ticket_id": "TKT-039",
+      "order_id": "ORD-301",
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-040",
+      "order_id": "ORD-302",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-041",
+      "order_id": "ORD-514",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "PAY-0187",
+        "PAY-0188"
+      ]
+    },
+    {
+      "ticket_id": "TKT-042",
+      "order_id": "ORD-503",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-043",
+      "order_id": "ORD-306",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-044",
+      "order_id": "ORD-505",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-045",
+      "order_id": "ORD-305",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "TKT-046",
+      "order_id": null,
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    }
+  ]
+}

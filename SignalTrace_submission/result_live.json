@@ -1,0 +1,150 @@
+{
+  "stats": {
+    "payments": {
+      "total": 27,
+      "accepted": 24,
+      "invalid": 2,
+      "duplicates": 1
+    },
+    "shipments": {
+      "total": 12,
+      "accepted": 10,
+      "invalid": 1,
+      "duplicates": 1
+    },
+    "complaints": {
+      "total": 17,
+      "accepted": 15,
+      "invalid": 1,
+      "duplicates": 1
+    },
+    "llm_errors": 0
+  },
+  "cases": [
+    {
+      "ticket_id": "C01",
+      "order_id": "ORD-210",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "A01",
+        "A02"
+      ]
+    },
+    {
+      "ticket_id": "C02",
+      "order_id": "ORD-211",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "A03",
+        "A04",
+        "A05"
+      ]
+    },
+    {
+      "ticket_id": "C03",
+      "order_id": "ORD-212",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "E01"
+      ]
+    },
+    {
+      "ticket_id": "C04",
+      "order_id": "ORD-213",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C05",
+      "order_id": "ORD-214",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C06",
+      "order_id": "ORD-215",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C07",
+      "order_id": "ORD-216",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "NOT_VERIFIED",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C08",
+      "order_id": "ORD-217",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "E04"
+      ]
+    },
+    {
+      "ticket_id": "C09",
+      "order_id": "ORD-218",
+      "issue": "SHIPPED_UNPAID",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "E05"
+      ]
+    },
+    {
+      "ticket_id": "C10",
+      "order_id": "ORD-224",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "A25",
+        "A26"
+      ]
+    },
+    {
+      "ticket_id": "C11",
+      "order_id": "ORD-999",
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C12",
+      "order_id": null,
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C13",
+      "order_id": "ORD-220",
+      "issue": "OTHER",
+      "verdict": "NOT_APPLICABLE",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C14",
+      "order_id": null,
+      "issue": "DOUBLE_CHARGE",
+      "verdict": "INSUFFICIENT_DATA",
+      "evidence_ids": []
+    },
+    {
+      "ticket_id": "C15",
+      "order_id": "ORD-219",
+      "issue": "PAYMENT_FAILURES",
+      "verdict": "SIGNAL_FOUND",
+      "evidence_ids": [
+        "A20",
+        "A19",
+        "A18"
+      ]
+    }
+  ]
+}
